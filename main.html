@@ -1,18 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Portfolio</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="bootstrap/bootstrap.min.css.map">
-		<link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
-		<link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css.map">
-	</head>
-	<body>
-		
-	</body>
-	<script src="script.js"></script>
-	<script src="bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="bootstrap/bootstrap.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css.map">
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css.map">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-md-2 d-flex">
+                        <img src="img/JetBrains.png" alt="" class="jetBrains-logo">
+                        <div class="logo-text-container">
+                            <p class="logo-text">
+                                Сотрудник компании
+                                <br> JetBrains в СПб
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-md-6 col-md-4 d-flex justify-content-between">
+                        <img src="img/%EF%86%89%20%EF%8E%9E%20%EF%85%AD%20%EF%85%A7.png" alt="" class="social-networks">
+                        <p class="mobile-number">
+                            +375298394921
+                        </p>
+                        <img src="img/hamburger-icon.png" alt="" class="hamburger-menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav offer-nav">
+            <div class="container">
+                <div class="row h-100">
+                    <div class="col-md-6">
+                        <div class="offer">
+                            <img src="img/Shape.png" alt="" class="shape">
+                            <h1 class="offer-name">
+									Тимофей Рудько
+								</h1>
+                            <p class="offer-description">
+                                Программист родом из Беларуси.
+                                <br> Специалист в области Front-end и Back-end
+                                <br> разработки сайтов.
+                            </p>
+                            <button class="get-work">
+                                Оформить заказ
+                            </button>
+                        </div>
+                    </div>
+                    <div class="offset-md-5 col-md-1">
+                        <img src="img/Arrow-down.png" alt="" class="offer-down">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="resume">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h1 class="resume-title">
+								Мои знания
+							</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="d-xs-block">
+                            <img src="img/html5.png" alt="HTML5" class="resume-img">
+                            <p class="resume-img__description">
+                                HTML5
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="d-xs-block">
+                            <img src="img/css-3.png" alt="CSS3" class="resume-img">
+                            <p class="resume-img__description">
+                                CSS3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="d-xs-block">
+                            <img src="img/js-format.png" alt="JS" class="resume-img">
+                            <p class="resume-img__description">
+                                JS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-flex justify-content-center">
+                        <div class="d-xs-block">
+                            <img src="img/php-document.png" alt="PHP" class="resume-img">
+                            <p class="resume-img__description">
+                                PHP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-md-1 col">
+                        <h3 class="resume-desc__title">
+								Создание полноценного сайта
+							</h3>
+                        <p class="resume-description">
+                            В мои умения входит создание front-end сайта с применением
+                            <br> HTML5, CSS3 (с фреймворком Bootstrap) и языком JS, а также
+                            <br> написание back-end части сайта на php (с применением базы данных
+                            <br> MySQL) и ряда других языков программирования.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-1 col-md-5">
+                        <h1 class="about-title">
+								Обо мне
+							</h1>
+                        <p class="about-description">
+                            Родился в Беларуси. С раннего детства увлекался
+                            <br> программированием, с большим уклоном на
+                            <br> web-development. Имею домашних питомцев: кошку и
+                            <br> собаку.
+                        </p>
+                        <ul class="about-history">
+                            <li class="about-history__el">
+                                <img src="img/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81%202.png" alt="" class="marker">
+                                <div class="about-history__el-text">
+                                    <h4 class="about-history__el-title">
+											2022 год
+										</h4>
+                                    <p class="about-history__el-description">
+                                        Закончил среднюю общеобразовательную
+                                        <br> школу в Беларуси.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-history__el">
+                                <img src="img/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81%202.png" alt="" class="marker">
+                                <div class="about-history__el-text">
+                                    <h4 class="about-history__el-title">
+											2022 год
+										</h4>
+                                    <p class="about-history__el-description">
+                                        Поступил в БГУИР в г. Минск.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-history__el">
+                                <img src="img/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81%202.png" alt="" class="marker">
+                                <div class="about-history__el-text">
+                                    <h4 class="about-history__el-title">
+											2026 год
+										</h4>
+                                    <p class="about-history__el-description">
+                                        Окончил БГУИР с красным дипломом.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-history__el">
+                                <img src="img/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81%202.png" alt="" class="marker">
+                                <div class="about-history__el-text">
+                                    <h4 class="about-history__el-title">
+											2027 год
+										</h4>
+                                    <p class="about-history__el-description">
+                                        Устроился на работу в jetBrains.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="get-work-2">
+                            Оформить заказ
+                        </button>
+                    </div>
+                    <div class="col-md-5 position-static">
+                        <div class="about-img position-absolute"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h1 class="portfolio-title">
+								Портфолио
+							</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-xxl-6 d-flex justify-content-center">
+                        <div class="d-block justify-content-center">
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+										Vk.com
+									</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+										30.000 руб.
+									</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+											Vk.com
+										</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+											30.000 руб.
+										</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+										Vk.com
+									</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+										30.000 руб.
+									</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 col-xxl-6 d-none d-xxl-flex justify-content-center">
+                        <div class="d-block justify-content-center">
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+										Vk.com
+									</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+										30.000 руб.
+									</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+											Vk.com
+										</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+											30.000 руб.
+										</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="portfolio-card d-flex">
+                                <div class="offset-md-7 col-md-5 portfolio-card__content">
+                                    <h1 class="portfolio-card__title">
+										Vk.com
+									</h1>
+                                    <p class="portfolio-card__description">
+                                        Принимал участие в backend
+                                        <br> разработке обновления
+                                        <br> ВКонтакте. Занимался
+                                        <br> сохранением реакций в базе
+                                        <br> данных MySQL на серверах
+                                        <br> ВКонтакте.
+                                    </p>
+                                    <h5 class="portfolio-card__price">
+										30.000 руб.
+									</h5>
+                                    <button class="portfolio-card__button">
+                                        Посмотреть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work-catalog">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h1 class="work-catalog__title">
+								Мои услуги
+							</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-3 col-xl-6 col-md-12 d-flex justify-content-center">
+                        <div class="work-card d-flex">
+                            <div class="work-card__text">
+                                <h1 class="work-card__title">
+										Верстка сайта
+									</h1>
+                                <p class="work-card-description">
+                                    Вёрстка сайта на HTML5, CSS3,
+                                    <br> JavaScript и прилегающих
+                                    <br> библиотеках.
+                                </p>
+                                <h5 class="work-card__price">
+										От 5000 руб.
+									</h5>
+                                <div class="w-100 d-flex">
+                                    <button class="get-work-3">
+                                        Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-6 col-md-12 d-flex justify-content-center">
+                        <div class="work-card d-flex">
+                            <div class="work-card__text">
+                                <h1 class="work-card__title">
+										Верстка сайта
+									</h1>
+                                <p class="work-card-description">
+                                    Вёрстка сайта на HTML5, CSS3,
+                                    <br> JavaScript и прилегающих
+                                    <br> библиотеках.
+                                </p>
+                                <h5 class="work-card__price">
+										От 5000 руб.
+									</h5>
+                                <div class="w-100 d-flex">
+                                    <button class="get-work-3">
+                                        Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-6 col-md-12 d-flex justify-content-center">
+                        <div class="work-card d-flex">
+                            <div class="work-card__text">
+                                <h1 class="work-card__title">
+										Верстка сайта
+									</h1>
+                                <p class="work-card-description">
+                                    Вёрстка сайта на HTML5, CSS3,
+                                    <br> JavaScript и прилегающих
+                                    <br> библиотеках.
+                                </p>
+                                <h5 class="work-card__price">
+										От 5000 руб.
+									</h5>
+                                <div class="w-100 d-flex">
+                                    <button class="get-work-3">
+                                        Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-6 col-md-12 d-flex justify-content-center">
+                        <div class="work-card d-flex">
+                            <div class="work-card__text">
+                                <h1 class="work-card__title">
+										Верстка сайта
+									</h1>
+                                <p class="work-card-description">
+                                    Вёрстка сайта на HTML5, CSS3,
+                                    <br> JavaScript и прилегающих
+                                    <br> библиотеках.
+                                </p>
+                                <h5 class="work-card__price">
+										От 5000 руб.
+									</h5>
+                                <div class="w-100 d-flex">
+                                    <button class="get-work-3">
+                                        Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h1 class="feedback-title">
+							Отзывы
+						</h1>
+                    </div>
+                </div>
+                <div class="row">
+                	<div class="col-xxl-4 col-xl-6 col-md-12 d-flex justify-content-center">
+                		<div class="d-block">
+                			<div class="feedback-comment">
+                			<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+                			<div class="feedback-comment__text">
+                				<h1 class="feedback-comment__name">
+									Анна
+								</h1>
+               					<p class="feedback-comment__description">
+               						Заказывала вёрстку сайта у Тимофея.<br>
+               						Сделал всё быстро :-)
+               					</p>
+                			</div>
+                		</div>
+                			<div class="feedback-comment">
+								<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+								<div class="feedback-comment__text">
+									<h1 class="feedback-comment__name">
+										Анна
+									</h1>
+									<p class="feedback-comment__description">
+										Заказывала вёрстку сайта у Тимофея.<br>
+										Сделал всё быстро :-)
+									</p>
+								</div>
+							</div>
+                		</div>
+                	</div>
+                	<div class="col-xxl-4 col-xl-6 col-md-12 d-none d-lg-flex justify-content-center">
+                		<div class="d-block">
+                			<div class="feedback-comment">
+                			<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+                			<div class="feedback-comment__text">
+                				<h1 class="feedback-comment__name">
+									Анна
+								</h1>
+               					<p class="feedback-comment__description">
+               						Заказывала вёрстку сайта у Тимофея.<br>
+               						Сделал всё быстро :-)
+               					</p>
+                			</div>
+                		</div>
+                			<div class="feedback-comment">
+								<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+								<div class="feedback-comment__text">
+									<h1 class="feedback-comment__name">
+										Анна
+									</h1>
+									<p class="feedback-comment__description">
+										Заказывала вёрстку сайта у Тимофея.<br>
+										Сделал всё быстро :-)
+									</p>
+								</div>
+							</div>
+                		</div>
+                	</div>
+                	<div class="col-xxl-4 col-xl-6 col-md-12 d-none d-xxl-flex justify-content-center">
+                		<div class="d-block">
+                			<div class="feedback-comment">
+								<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+								<div class="feedback-comment__text">
+									<h1 class="feedback-comment__name">
+										Анна
+									</h1>
+									<p class="feedback-comment__description">
+										Заказывала вёрстку сайта у Тимофея.<br>
+										Сделал всё быстро :-)
+									</p>
+								</div>
+							</div>
+                			<div class="feedback-comment">
+								<img src="img/Anna.png" alt="" class="feedback-comment__avatar">
+								<div class="feedback-comment__text">
+									<h1 class="feedback-comment__name">
+										Анна
+									</h1>
+									<p class="feedback-comment__description">
+										Заказывала вёрстку сайта у Тимофея.<br>
+										Сделал всё быстро :-)
+									</p>
+								</div>
+							</div>
+                		</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+    	<div class="nav">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col d-flex justify-content-center">
+    					<h1 class="contacts-title">
+    						Контакты
+    					</h1>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-lg-6 col-md-12 d-flex justify-content-start">
+    					<img src="img/%EF%86%89%20%EF%8E%9E%20%EF%85%AD%20%EF%85%A7%202.png" alt="" class="social-networks contact">
+    				</div>
+    				<div class="col-lg-6 col-md-12 d-flex justify-content-end">
+    					<h1 class="phone-number contact">
+    						+375298394921
+    					</h1>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <footer class="footer">
+    	<div class="nav">
+    		<div class="container">
+    			<div class="row align-items-end">
+                    <div class="col-md-2 d-flex">
+                        <img src="img/JetBrains.png" alt="" class="jetBrains-logo">
+                        <div class="logo-text-container">
+                            <p class="logo-text">
+                                Сотрудник компании
+                                <br> JetBrains в СПб
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-md-5 col-md-5 d-flex justify-content-between">
+                        <img src="img/%EF%86%89%20%EF%8E%9E%20%EF%85%AD%20%EF%85%A7.png" alt="" class="social-networks">
+                        <p class="mobile-number">
+                            +375298394921
+                        </p>
+                        <div class="offser-md-6"></div>
+                        <a href="#">
+							<img src="img/Arrow-up.png" alt="" class="arrow-up">
+						</a>
+                    </div>
+                </div>
+    		</div>
+    	</div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+
 </html>

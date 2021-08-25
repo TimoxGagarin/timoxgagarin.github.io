@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: black;
+}
+
+p {
+    font-size: 15px;
+}
+
+.header {
+    padding-top: 72px;
+    width: 100%;
+    height: 1080px;
+    background: url('img/header-background.png') no-repeat top center / 100% 100%;
+}
+
+.jetBrains-logo {
+    margin-right: 23px;
+    width: 48px;
+    height: 48px;
+}
+
+.logo-text-container {
+    display: flex;
+    align-content: flex-end;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.logo-text {
+    white-space: nowrap;
+    color: white;
+}
+
+.social-networks {
+    height: 21px;
+}
+
+.mobile-number {
+    color: white;
+    font-weight: 900;
+}
+
+.hamburger-menu {
+    height: 14px;
+    width: 16px;
+}
+
+.offer-nav {
+    margin-top: 290px;
+    height: 654px;
+    padding-bottom: 48px;
+}
+
+.offer {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 48px;
+}
+
+.offer-name {
+    color: white;
+    font-weight: 900;
+}
+
+.offer-description {
+    color: white;
+}
+
+.get-work {
+    color: #E24C4C;
+    font-weight: 900;
+    border: 2px solid #E24C4C;
+    background-color: transparent;
+    width: 282px;
+    height: 57px;
+    margin-top: 80px;
+}
+
+.get-work:focus {
+    outline-style: none;
+    outline-width: 0px !important;
+    outline-color: none !important;
+}
+
+.shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.offer-down {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.resume {
+    padding-top: 125px;
+    padding-bottom: 164px;
+}
+
+.resume-title {
+    margin-bottom: 95px;
+    font-weight: 900;
+	border-bottom: 1px solid black;
+}
+
+.resume-img {
+    margin-bottom: 30px;
+}
+
+.resume-img__description {
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 68px;
+}
+
+.resume-desc__title {
+    margin-bottom: 26px;
+    font-weight: 900;
+}
+
+.about {
+    background-color: #EDEDED;
+    height: 635px;
+}
+
+.about-title {
+    color: #5D5D5D;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    white-space: nowrap;
+    margin-bottom: 57px;
+}
+
+.about-img {
+    background: url(img/about-img.png) no-repeat right;
+    height: 635px;
+    width: 41%;
+    right: 0;
+}
+
+.about-history {
+    border-left: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 42px;
+}
+
+.marker {
+    height: 9px;
+    width: 9px;
+    position: absolute;
+    left: -4.5px;
+    top: 9px;
+}
+
+.about-history__el {
+    list-style-type: none;
+    position: relative;
+}
+
+.about-history__el-text {
+    padding-left: 13px;
+}
+
+.about-history__el-title {
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.about-history__el-description {
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+.get-work-2 {
+    background-color: #E24C4C;
+    color: white;
+    border: none;
+    width: 282px;
+    height: 60px;
+    box-shadow: 0 10px 5px rgba(226, 76, 76, 0.5);
+}
+
+.portfolio {
+    padding-top: 126px;
+}
+
+.portfolio-title {
+    font-weight: 900;
+    border-bottom: 1px solid black;
+    margin-bottom: 92px;
+}
+
+.portfolio-card {
+    background: url(img/portfolio-vk.png) no-repeat;
+    width: 828px !important;
+    height: 288px !important;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 64px 0;
+}
+
+.portfolio-card__content {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.portfolio-card__title {
+    color: rgba(137, 137, 137, 0.5);
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.portfolio-card__description {
+    white-space: nowrap;
+}
+
+.portfolio-card__price {
+    font-weight: 900;
+}
+
+.portfolio-card__button {
+    background-color: transparent;
+    color: #E24C4C;
+    font-weight: 900;
+    border: 2px solid #E24C4C;
+    width: 136px;
+    height: 30px;
+}
+
+.work-catalog {}
+
+.work-catalog__title {
+    font-weight: 900;
+    border-bottom: 1px solid black;
+    margin-top: 117px;
+    margin-bottom: 113px;
+}
+
+.work-card {
+    background: url(img/catalog-img.png) no-repeat 100%;
+    width: 369px;
+    height: 607px;
+    margin: 20px 0;
+}
+
+.work-card__text {
+    margin-top: 85%;
+    padding-top: 40px;
+    padding-left: 53px;
+}
+
+.work-card__title {
+    color: rgba(137, 137, 137, 0.5);
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.work-card__price {
+    font-weight: 900;
+    margin-bottom: 45px;
+}
+
+.get-work-3 {
+    background-color: #E24C4C;
+    color: white;
+    border: none;
+    width: 131px;
+    height: 30px;
+    margin: auto;
+}
+
+.feedback {}
+
+.feedback-title {
+	margin-top: 125px;
+	margin-bottom: 125px;
+	font-weight: 900;
+	border-bottom: 1px solid black;
+}
+
+.feedback-comment{
+	position: relative;
+	width: 445px;
+	height: 114px;
+	background-color:#E1E1E1;
+	border-radius: 0 25px 25px 0;
+	margin: 51px 0;
+}
+
+.feedback-comment__text{
+	padding-left: 79px;
+	padding-top: 20px;	
+}
+
+.feedback-comment__name{
+	font-weight: 900;
+	font-size: 18px;
+}
+
+.feedback-comment__description{
+	white-space: nowrap;	
+}
+
+.feedback-comment__avatar{
+	position: absolute;
+	left:-57px;
+}
+
+.contacts{
+	padding-bottom: 194px;
+}
+
+.contacts-title{
+	margin-top: 105px;
+	margin-bottom: 150px;
+	font-weight: 900;
+    border-bottom: 1px solid black;
+}
+
+.contact{
+	margin: 20px 0;	
+}
+
+.social-networks{
+	height: 50%;
+}
+
+.phone-number{
+	font-weight: 900;
+}
+
+.footer{
+	background-color: rgba(90,90,90,0.5);
+	padding-top: 240px;
+	padding-bottom: 222px;
+}
+
+.arrow-up{
+	right: 0;
+}
