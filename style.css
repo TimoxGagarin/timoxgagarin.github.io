@@ -10,6 +10,15 @@ p {
     font-size: 15px;
 }
 
+button:focus{
+	outline: none !important;
+}
+
+button:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
 .header {
     padding-top: 72px;
     width: 100%;
@@ -49,6 +58,7 @@ p {
 .hamburger-menu {
     height: 14px;
     width: 16px;
+	cursor: pointer;
 }
 
 .offer-nav {
@@ -82,12 +92,6 @@ p {
     margin-top: 80px;
 }
 
-.get-work:focus {
-    outline-style: none;
-    outline-width: 0px !important;
-    outline-color: none !important;
-}
-
 .shape {
     position: absolute;
     left: 0;
@@ -98,6 +102,8 @@ p {
     position: absolute;
     bottom: 0;
     right: 0;
+	border: none;
+	background: transparent;
 }
 
 .resume {
@@ -113,6 +119,11 @@ p {
 
 .resume-img {
     margin-bottom: 30px;
+}
+
+.resume-img:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
 }
 
 .resume-img__description {
@@ -349,4 +360,6 @@ p {
 
 .arrow-up{
 	right: 0;
+	border: none;
+	background: transparent;
 }
